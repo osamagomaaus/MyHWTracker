@@ -15,9 +15,9 @@ Static, responsive website for the Homework Tracker desktop application. It cont
 1. Put these files at the root of the `MyHWTracker` GitHub repository.
 2. In the repository settings, enable GitHub Pages for the branch and folder containing these files.
 3. Confirm these pages load publicly:
-   - https://osamagomaaus.github.io/MyHWTracker/index.html
-   - https://osamagomaaus.github.io/MyHWTracker/privacy.html
-   - https://osamagomaaus.github.io/MyHWTracker/terms.html
+   - [https://osamagomaaus.github.io/MyHWTracker/index.html](https://osamagomaaus.github.io/MyHWTracker/)
+   - [https://osamagomaaus.github.io/MyHWTracker/privacy.html](https://osamagomaaus.github.io/MyHWTracker/privacy.html)
+   - [https://osamagomaaus.github.io/MyHWTracker/terms.html](https://osamagomaaus.github.io/MyHWTracker/terms.html)
 4. In Google Auth Platform > Branding, use those exact homepage, privacy policy, and terms URLs. Ensure `ox0sama.github.io` is verified and listed as an authorized domain in Google Cloud.
 5. After the site is live, request branding verification again in Google Auth Platform.
 
