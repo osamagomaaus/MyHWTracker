@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Read how Homework Tracker handles account information, Google Classroom data, and assignments saved on your device.">
+  <meta name="theme-color" content="#102957">
+  <link rel="icon" type="image/png" href="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_png/cloudinary-tools-uploads/abivtfllhnbxhfdxpzez">
+  <title>Privacy Policy | Homework Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Homework Tracker home">
+        <img class="brand-image" src="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_png/cloudinary-tools-uploads/abivtfllhnbxhfdxpzez" alt="">
+        <span>Homework Tracker</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a class="nav-contact" href="mailto:osama.gomaa.us@gmail.com">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="legal-page" id="main">
+    <div class="container">
+      <header class="legal-header">
+        <p class="eyebrow">Your information matters</p>
+        <h1>Privacy Policy</h1>
+        <p>Last updated: November 6, 2026</p>
+      </header>
+      <article class="legal-content">
+        <h2>About this policy</h2>
+        <p>This policy explains how Osama Gomaa (“I,” “me,” or “the developer”) handles information when you use the Homework Tracker desktop application (“the app”). The app helps you organize school assignments and optionally import coursework from Google Classroom.</p>
+        <p>Questions or privacy requests can be sent to <a href="mailto:osama.gomaa.us@gmail.com">osama.gomaa.us@gmail.com</a>.</p>
+
+        <h2>Information the app handles</h2>
+        <ul>
+          <li><strong>Account information:</strong> If you create a Homework Tracker account, your name and email address are sent to Firebase Authentication to create and manage the account. Firebase also processes your password and email-verification status. The app does not store your password in its local assignment file.</li>
+          <li><strong>Remembered email:</strong> If you select “Remember Me,” the app saves your email address in a small text file on that Windows device. It does not save your password there.</li>
+          <li><strong>Assignments and preferences:</strong> Assignment titles, subjects, due dates, priorities, estimated time, notes, completion status, and the due-reminder setting are saved in a JSON file in the HomeworkTracker folder under your Windows local application data directory. This data is stored on the device and is not synchronized to a server by the app.</li>
+          <li><strong>Google Classroom information (optional):</strong> If you choose to connect Google Classroom, Google provides the app with access to the active courses and coursework allowed by the permissions you approve. The app displays coursework that can be imported. When you select assignments to import, the app saves their title, course name, due date, and app-created planning fields in the local assignment file.</li>
+        </ul>
+
+        <h2>How information is used</h2>
+        <p>Account information is used to create and authenticate your app account and verify your email. Google Classroom information is used only to show and import your coursework into your local assignment list. Locally saved assignment data powers the dashboard, assignment list, calendar, planner, progress display, and optional in-app due-date reminders.</p>
+
+        <h2>Google Classroom permissions</h2>
+        <p>Google Classroom access is optional and separate from your Homework Tracker account. The app requests read-only access to the courses available to you and the coursework associated with those courses. It does not request permission to edit courses, submit work, or change coursework. The Google access token is held in memory while the app connects and is not written to the local assignment file. Signing out or closing the app ends its active connection for that session but does not revoke the authorization grant; you can review or revoke the app’s access from your Google Account’s third-party connections settings.</p>
+        <p>Google handles information under its own privacy policy and terms. Review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google’s Terms of Service</a>.</p>
+
+        <h2>Where information is stored and shared</h2>
+        <p>The app sends account sign-up, sign-in, profile, and email-verification requests to Firebase Authentication, a Google service. Google Classroom requests go to Google when you connect. Locally saved assignments and settings remain on your device; the app does not upload them to Firebase or Google Classroom. Google Classroom data is used only to provide the app’s user-facing import and assignment organization features; it is not used for advertising, profiling, or training generalized AI or machine-learning models. The app does not sell personal information, use advertising trackers, or send assignment data to analytics services.</p>
+        <p>Information sent to Firebase or Google is subject to those providers’ systems and policies. I do not operate a separate server that stores your assignments.</p>
+
+        <h2>Retention and deletion</h2>
+        <p>Your local assignments and settings remain on the device until you delete them in the app or remove the app’s HomeworkTracker data folder. The remembered email can be cleared by turning off “Remember Me” or deleting its local file. Signing out does not delete local assignments.</p>
+        <p>To request deletion of your Homework Tracker account from Firebase Authentication, email <a href="mailto:osama.gomaa.us@gmail.com?subject=Homework%20Tracker%20account%20deletion">osama.gomaa.us@gmail.com</a> from the email address associated with the account. Include that you want the account deleted. Google may retain or process information separately under its own policies; manage Google account data and app access through your Google Account.</p>
+
+        <h2>Children and student information</h2>
+        <p>The app is a personal student productivity project. It is not designed to collect sensitive personal information, and users should not put sensitive information about themselves or others in assignment notes. If you are a parent or guardian and have a privacy concern about a child’s account, contact me at the email above.</p>
+
+        <h2>Security</h2>
+        <p>The app uses HTTPS when communicating with Firebase and Google. Local assignment data is stored as a file on your device and is not encrypted by the app; protect access to your device and its user account. No method of internet transmission or electronic storage can be guaranteed completely secure.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>This policy may be updated if the app’s features or data practices change. The latest version and its effective date will be posted on this page.</p>
+
+        <div class="legal-callout">For questions, account deletion requests, or other privacy concerns, contact <a href="mailto:osama.gomaa.us@gmail.com">osama.gomaa.us@gmail.com</a>.</div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="index.html"><img class="brand-image" src="https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_png/cloudinary-tools-uploads/abivtfllhnbxhfdxpzez" alt=""><span>Homework Tracker</span></a>
+        <p>A student-focused way to keep assignments and plans in view.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html" aria-current="page">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:osama.gomaa.us@gmail.com">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-current-year>2026</span> Osama Gomaa. Homework Tracker.</span>
+      <span>Homework Tracker is an independent project and is not affiliated with Google.</span>
+    </div>
+  </footer>
+</body>
+</html>
